@@ -3,6 +3,8 @@
     height: 448px;
     color: white;
     object-fit: contain;
+    background-size: cover;
+    background-position: center center;
 }
 
 .banner__contents{
