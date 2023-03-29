@@ -31,17 +31,18 @@ function Banner() {
         <header className='banner'
             style={{
                 backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`
-                // backgroundImage: `url("https://cdn.pixabay.com/photo/2015/08/23/09/22/banner-902589__340.jpg")`
             }}
             >
             <div className='banner__contents'>
-                <h1 className='banner__title'> Movie Name</h1>
+                <h1 className='banner__title'> 
+                {movie?.title || movie?.name || movie?.orginal_name}
+                </h1>
                     <div className='banner__btns'>
                         <button className='banner__btn'>Play</button>
                         <button className='banner__btn'>My List</button>
                     </div>
                     <h1 className='banner__description'>
-                        {truncate(``, 150)}
+                        {truncate(movie?.overview, 150)}
                     </h1>
             </div>
             <div className='banner--fadeBottom'/>
