@@ -17,6 +17,7 @@
 }
 
 .loginScreen__body > h1{
+    margin-top: 50px;
     font-size: 3.125rem;
     margin-bottom: 20px;
 }
@@ -34,7 +35,7 @@
 
 .loginScreen__body{
     position: absolute;
-    top: 30%;
+    top: 20%;
     text-align: center;
     z-index: 2;
     color: #fff;
@@ -78,7 +79,7 @@
     
     padding: 10px;
     outline-width: 0;
-    height: 30.5px;
+    height: 30px;
     width: 30%;
     border: none;
     max-width: 600px;
