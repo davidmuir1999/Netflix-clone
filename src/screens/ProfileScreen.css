@@ -41,19 +41,14 @@
     padding-left: 20px;
 }
 
-.profileScreen__plans{
-    margin-top: 20px;
-}
-
 .profileScreen__plans > h3{
     border-bottom: 1px solid #282c2d;
-    padding-bottom: 10px;
 }
 
 .profileScreen__signOut {
     padding: 10px 20px;
     font-size: 1rem;
-    margin-top: 5%;
+    margin-top: 12px;
     width: 100%;
     color: #fff;
     background-color: #e50914;
